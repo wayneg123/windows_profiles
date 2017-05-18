@@ -1,24 +1,24 @@
 :: start from atom
-mklink /H %home%\.atom\.apmrc atom\.apmrc
-mklink /H %home%\.atom\config.cson atom\.config.cson
-mklink /H %home%\.atom\keymap.cson atom\keymap.cson
-mklink /H %home%\.atom\projects.cson atom\projects.cson
+mklink /H %userprofile%\.atom\.apmrc atom\.apmrc
+mklink /H %userprofile%\.atom\config.cson atom\.config.cson
+mklink /H %userprofile%\.atom\keymap.cson atom\keymap.cson
+mklink /H %userprofile%\.atom\projects.cson atom\projects.cson
 :: pip
-cd %home%
+cd %userprofile%
 mkdir pip
-cd %home%\windows_profile
-mklink /H %home%\pip\pip.ini pip\pip.ini
+cd %userprofile%\windows_profile
+mklink /H %userprofile%\pip\pip.ini pip\pip.ini
 :: cmder
-mklink /H %home%\cmder\ConEmu.xml cmder\ConEmu.xml
-mklink /H %home%\cmder\settings cmder\settings
-mklink /H %home%\cmder\user-ConEmu.xml cmder\user-ConEmu.xml 
-mklink /H %home%\cmder\user-aliases.cmd cmder\user-aliases.cmd
-mklink /H %home%\cmder\user-profile.cmd cmder\user-aliases.cmd
-mklink /H %home%\cmder\user-profile.ps1 cmder\user-profile.ps1
+mklink /H %userprofile%\cmder\ConEmu.xml cmder\ConEmu.xml
+mklink /H %userprofile%\cmder\settings cmder\settings
+mklink /H %userprofile%\cmder\user-ConEmu.xml cmder\user-ConEmu.xml 
+mklink /H %userprofile%\cmder\user-aliases.cmd cmder\user-aliases.cmd
+mklink /H %userprofile%\cmder\user-profile.cmd cmder\user-aliases.cmd
+mklink /H %userprofile%\cmder\user-profile.ps1 cmder\user-profile.ps1
 :: gvim
-mklink /H %home%\_vimrc gvim\_vimrc
+mklink /H %userprofile%\_vimrc gvim\_vimrc
 :: others
-mklink /H %home%\.condarc others\.condarc 
-mklink /H %home%\.theanorc.txt others\.theanorc.txt
+mklink /H %userprofile%\.condarc others\.condarc 
+mklink /H %userprofile%\.theanorc.txt others\.theanorc.txt
 :: shorcut_scripts
-mklink /H %home%\startup.ahk shorcut_scripts\startup.ahk 
+mklink /H %userprofile%\startup.ahk shorcut_scripts\startup.ahk 
