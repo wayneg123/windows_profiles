@@ -20,5 +20,9 @@ mklink /H %home%\_vimrc gvim\_vimrc
 :: others
 mklink /H %home%\.condarc others\.condarc 
 mklink /H %home%\.theanorc.txt others\.theanorc.txt
+mklink /H %home%\.gitconfig others\.gitconfig
 :: shorcut_scripts
 mklink /H %home%\startup.ahk shorcut_scripts\startup.ahk 
+:: ssh config
+mklink /H %home%\.ssh\config .ssh\config
+
