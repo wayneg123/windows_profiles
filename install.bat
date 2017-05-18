@@ -6,7 +6,7 @@ mklink /H %userprofile%\.atom\projects.cson atom\projects.cson
 :: pip
 cd %userprofile%
 mkdir pip
-cd %userprofile%\windows_profile
+cd %userprofile%\windows_profiles
 mklink /H %userprofile%\pip\pip.ini pip\pip.ini
 :: cmder
 mklink /H %userprofile%\cmder\ConEmu.xml cmder\ConEmu.xml
