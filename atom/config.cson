@@ -1,0 +1,35 @@
+"*":
+  "atom-latex":
+    compiler: "xelatex"
+    preview_after_build: "View in PDF viewer tab"
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "markdown-preview"
+      "latex"
+      "markdown-preview-plus"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 30
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "e20b878c-8b8c-44d1-9089-c588e5f1482f"
+  "git-plus":
+    general: {}
+  latex:
+    enableExtendedBuildMode: false
+    enableSynctex: false
+    engine: "xelatex"
+    texPath: "C:\\texlive\\2016\\bin\\win32"
+  "markdown-preview-enhanced":
+    previewTheme: "one-dark-syntax"
+  "one-dark-ui":
+    fontSize: 17
+  "platformio-ide-terminal":
+    style:
+      fontSize: "18"
+      theme: "solarized-dark"
+  "preview-inline": {}
