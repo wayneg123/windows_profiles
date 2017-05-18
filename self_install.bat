@@ -9,12 +9,12 @@ mkdir pip
 cd %userprofile%\windows_profiles
 mklink /H %userprofile%\pip\pip.ini pip\pip.ini
 :: cmder
-mklink /H %userprofile%\cmder\config\ConEmu.xml cmder\ConEmu.xml
-mklink /H %userprofile%\cmder\config\settings cmder\settings
-mklink /H %userprofile%\cmder\config\user-ConEmu.xml cmder\user-ConEmu.xml 
-mklink /H %userprofile%\cmder\config\user-aliases.cmd cmder\user-aliases.cmd
-mklink /H %userprofile%\cmder\config\user-profile.cmd cmder\user-aliases.cmd
-mklink /H %userprofile%\cmder\config\user-profile.ps1 cmder\user-profile.ps1
+mklink /H c:\cmder\config\ConEmu.xml cmder\ConEmu.xml
+mklink /H c:\cmder\config\settings cmder\settings
+mklink /H c:\cmder\config\user-ConEmu.xml cmder\user-ConEmu.xml 
+mklink /H c:\cmder\config\user-aliases.cmd cmder\user-aliases.cmd
+mklink /H c:\cmder\config\user-profile.cmd cmder\user-aliases.cmd
+mklink /H c:\cmder\config\user-profile.ps1 cmder\user-profile.ps1
 :: gvim
 mklink /H %userprofile%\_vimrc gvim\_vimrc
 :: others
