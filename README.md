@@ -1,5 +1,5 @@
 # Windows profiles
-This is my windows profiles
+These are my windows profiles
 
 **install.bat still in testing**
 
