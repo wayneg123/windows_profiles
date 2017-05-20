@@ -59,7 +59,10 @@ function git-commit-all { git commit -a }
 Set-Alias -Name gca -Value git-commit-all
 
 function git-commit-m { git commit -m $args }
-Set-Alias -Name gcm -Value git-commit-m
+Set-Alias -Name gcmsg -Value git-commit-m
+
+function git-checkout-master { git checkout master }
+Set-Alias -Name gcm -Value git-checkout-master
 
 function git-checkout { git checkout $args }
 Set-Alias -Name gco -Value git-checkout
