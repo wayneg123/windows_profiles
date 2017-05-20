@@ -10,7 +10,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 " color scheme
-colo desert
+colo molokai
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
@@ -227,7 +227,9 @@ Plug 'plasticboy/vim-markdown'
 " Markdown realtime preview
 " Before you want to use it, please run
 " `sudo npm -g install instant-markdown-d`
-Plug 'suan/vim-instant-markdown'
+" Plug 'suan/vim-instant-markdown'
+" markdown-preview.vim
+Plug 'MikeCoder/markdown-preview.vim'
 " Handlebars syntax highlighting
 Plug 'mustache/vim-mustache-handlebars'
 " Vue.js syntax and highlighting
