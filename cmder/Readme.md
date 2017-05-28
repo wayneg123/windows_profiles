@@ -3,7 +3,6 @@
 
 - [Table of contents](#table-of-contents)
 - [Get started](#get-started)
-- [How to use this config](#how-to-use-this-config)
 - [Install pre-require packages](#install-pre-require-packages)
 - [Features](#features)
 - [Others](#others)
@@ -15,14 +14,7 @@ If you want to use this config, you should install cmder first. Download and ins
 
 > Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start. ---[http://cmder.net/](http://cmder.net/)
 
-# How to use this config
 
-For example, if your cmder directory is `D:\cmder`, delete the default `config` directory. With git installed, `win + r` type `cmd` to run.
-```
-d:
-cd cmder
-git clone https://github.com/wayneg123/cmder_config.git config
-```
 
 
 # Install pre-required packages
@@ -60,7 +52,8 @@ Git aliases:
 - gdm = git diff master
 - gdd = git diff dev
 - gca = git commit -a
-- gcm = git commit -m $args
+- gcmsg = git commit -m $args
+- gcm = git checkout master
 - gco = git checkout $args
 - gl = git log
 - gf = git fetch
